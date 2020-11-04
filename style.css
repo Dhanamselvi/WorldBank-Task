@@ -226,11 +226,34 @@ a.app-icons:hover {
 .space-mic-icons {
   padding-right: 15px;
 }
-@media only screen and (min-width: 992px) {
-  .card-container {
+.prev-btn {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  left: -20px;
+  top: 41%;
+  bottom: 50%;
+}
+.next-btn {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  right: -18px;
+  top: 41%;
+  bottom: 50%;
+}
+
+@media (min-width: 992px) {
+  /* .card-container {
     position: relative;
     left: 15px;
-  }
+  } */
   .card-container .card-content {
     padding-left: 0px;
   }
@@ -246,6 +269,7 @@ a.app-icons:hover {
     padding-right: 1px;
   }
 }
+
 @media only screen and (max-width: 991px) {
   .right-card-container img:first-child {
     padding-bottom: 15px;
